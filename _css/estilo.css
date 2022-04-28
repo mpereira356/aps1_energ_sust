@@ -112,7 +112,7 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: fixed;
+    position: block;
     top: 8%;
     left: 40%;
     

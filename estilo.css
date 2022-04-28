@@ -112,9 +112,9 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: fixed;
-    top: 8%;
-    left: 40%;
+    position: relative;
+    top: -50px;
+    left: 330px;
     
     
 }
