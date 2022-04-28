@@ -17,7 +17,7 @@ div#interface {
     width: 1100px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;  
-    box-shadow: 0px 0px 10px black;  /* deslocamento lateral , desloc. vert. espalhamento da sombra , cor da sombra */
+    box-shadow: 0px 0px 10px black;  
     padding: 10px;
 }
 
@@ -111,9 +111,9 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: 50px;
-    left: 1050px;
+    position: fixed;
+    top: 8%;
+    left: 40%;
     
 }
 
