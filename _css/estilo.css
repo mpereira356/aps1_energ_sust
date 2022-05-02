@@ -4,8 +4,7 @@
     src: url("../_fonts/Contenderfreeversion-eZ596.otf");
     }
     font-family: 'Titillium Web', sans-serif;
-    
-  
+
 
 body {
     font-family: Arial, sans-serif;
@@ -113,9 +112,9 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: relative;
-    top: -50px;
-    left: 330px;
+    position: block;
+    top: 8%;
+    left: 40%;
     
     
 }
@@ -239,3 +238,5 @@ footer#rodape a {
 
     font-size: 13pt;
 }
+
+
