@@ -6,6 +6,7 @@
     font-family: 'Titillium Web', sans-serif;
     
   
+/*cabecalho*/
 
 body {
     font-family: Arial, sans-serif;
@@ -124,7 +125,6 @@ nav#menu li {
     display:inline-block;
     padding: 10px;
     margin: 2px;
-    transition: background-color 1s;
     font-family: 'Hind';
     font-size: 14px;
 
@@ -134,7 +134,10 @@ nav#menu li {
 nav#menu li:hover {
     background-color: #4cf0a3;
     border-radius: 20px;
+    transition: background-color 1s;
 }
+
+
 
 nav#menu h1 {
     display: none;
@@ -153,6 +156,8 @@ nav#menu a:hover {
     text-decoration: underline;
 
 }
+
+/*corpo*/
 
 section#corpo {
     display: block;
@@ -201,7 +206,7 @@ header#cabecalho-artigo h3 {
     
 }
 
-
+/*aside*/
 
 aside#lateral {
     
@@ -224,6 +229,7 @@ font-size: 13pt;
 color: #ffffff;
 padding: 5px;
 
+/*footer*/
 
 }
 footer#rodape {
@@ -239,3 +245,53 @@ footer#rodape a {
 
     font-size: 13pt;
 }
+
+/*form*/ 
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255,255,255,.8)
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+fieldset#usuario {
+    background: url("icone-contato.png") no-repeat 95% 95%;
+
+}
+
+fieldset#endereco {
+    background: url("icone-endereco.png") no-repeat 95% 95%;
+    
+}
+
+fieldset#mensagem {
+    background: url("icone-mensagem.png") no-repeat 95% 95%;
+    
+}
+
