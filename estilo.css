@@ -1,0 +1,296 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'FonteLogo' ;
+    src: url("../_fonts/Contenderfreeversion-eZ596.otf");
+    }
+    font-family: 'Titillium Web', sans-serif;
+    
+  
+/*cabecalho*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+}
+
+
+div#interface {
+    width: 1100px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;  
+    box-shadow: 0px 0px 10px black;  
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 19px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone {
+position: absolute;
+left: 1650px;
+top: 120px;
+
+}
+
+header#cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #006400;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family:'Titillium Web', sans-serif;
+    color: #006400;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 14px;
+}
+
+
+
+
+
+/*  imagens com legendas  */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+
+}
+
+/*  Menu */ 
+
+nav#menu {
+    display: block;
+    
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -50px;
+    left: 330px;
+    
+    
+}
+
+nav#menu li {
+    display:inline-block;
+    padding: 10px;
+    margin: 2px;
+    font-family: 'Hind';
+    font-size: 14px;
+
+    
+}
+
+nav#menu li:hover {
+    background-color: #4cf0a3;
+    border-radius: 20px;
+    transition: background-color 1s;
+}
+
+
+
+nav#menu h1 {
+    display: none;
+
+}
+
+nav#menu a {
+    color: #5B5B5B;
+    text-decoration: none;
+    
+
+}
+
+nav#menu a:hover {
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+/*corpo*/
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    border-width: 500;
+}
+
+article#noticia-principal h2 {
+    font-size: 13pt;
+    color: #000000;
+    background-color: #c1f3f7;
+    padding: 5px 0px 5px 10px;
+    margin: 10px;
+
+}
+
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.direita {
+    text-align: right;
+
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background: #ffffff;
+    margin: 0px;
+
+}
+
+header#cabecalho-artigo h3 {
+    
+    font-size: 12px;
+    color: #606060
+    
+}
+
+/*aside*/
+
+aside#lateral {
+    
+    width: 530px;
+    float: right;
+    margin-top: 105px;
+}
+
+aside#lateral h1 {
+font-family: 'FonteLogo', sans-serif;
+font-size: 20pt;
+color: #606060;
+margin-top: 0px;
+
+}
+
+aside#lateral h2 {
+background-color: #9FDDE4;
+font-size: 13pt;
+color: #ffffff;
+padding: 5px;
+
+/*footer*/
+
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    background-color: #4d9391;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+footer#rodape a {
+    font-size: 13pt;
+}
+
+/*form*/ 
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255,255,255,.8)
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+fieldset#usuario {
+    background: url("icone-contato.png") no-repeat 95% 95%;
+
+}
+
+fieldset#endereco {
+    background: url("icone-endereco.png") no-repeat 95% 95%;
+    
+}
+
+fieldset#mensagem {
+    background: url("icone-mensagem.png") no-repeat 95% 95%;
+    
+}
