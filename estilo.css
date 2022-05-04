@@ -235,6 +235,7 @@ padding: 5px;
 footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
+    background-color: #4d9391;
 }
 
 footer#rodape p {
