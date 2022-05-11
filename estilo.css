@@ -1,19 +1,18 @@
 @charset "UTF-8";
 @font-face {
     font-family:'FonteLogo' ;
-    src: url("../_fonts/Contenderfreeversion-eZ596.otf");
+    src: url("Contenderfreeversion-eZ596.otf");
     }
-    font-family: 'Titillium Web', sans-serif;
-    
-  
-/*cabecalho*/
+font-family: 'Titillium Web', sans-serif;
 
+/*fundo*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #dddddd;
     color: rgba(0,0,0,1);
 }
-
+body {
+    background-color: #00ff3780;
+}
 
 div#interface {
     width: 1100px;
@@ -23,6 +22,7 @@ div#interface {
     padding: 10px;
 }
 
+/*texto*/
 p {
     text-align: justify;
     text-indent: 50px;
@@ -38,6 +38,8 @@ a:hover {
     text-decoration: underline;
 }
 
+/*cabecalho*/
+
 header#cabecalho img#icone {
 position: absolute;
 left: 1650px;
@@ -46,8 +48,8 @@ top: 120px;
 }
 
 header#cabecalho {
-border-bottom: 1px #606060 solid;
-height: 150px;
+    border-bottom: 1px #606060 solid;
+    height: 150px;
 }
 
 header#cabecalho h1 {
@@ -68,7 +70,33 @@ header#cabecalho h2 {
     margin-left: 14px;
 }
 
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 
+.direita {
+    text-align: right;
+
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background: #ffffff;
+    margin: 0px;
+
+}
+
+header#cabecalho-artigo h3 {
+    
+    font-size: 12px;
+    color: #606060
+    
+}
 
 
 
@@ -114,11 +142,10 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: relative;
-    top: -50px;
-    left: 330px;
-    
-    
+    position: absolute;
+    top: 8%;
+    left: 38%;
+
 }
 
 nav#menu li {
@@ -127,17 +154,13 @@ nav#menu li {
     margin: 2px;
     font-family: 'Hind';
     font-size: 14px;
-
     
 }
 
-nav#menu li:hover {
-    background-color: #4cf0a3;
-    border-radius: 20px;
-    transition: background-color 1s;
-}
-
-
+    nav#menu li:hover {
+        background-color: #00ff3780;
+        border-radius: 20px;
+    }
 
 nav#menu h1 {
     display: none;
@@ -151,13 +174,12 @@ nav#menu a {
 
 }
 
-nav#menu a:hover {
-    color: #000000;
-    text-decoration: underline;
+    nav#menu a:hover {
+        color: #000000;
+        font-weight: bold;
+    }
 
-}
-
-/*corpo*/
+    /*Corpo*/
 
 section#corpo {
     display: block;
@@ -166,47 +188,18 @@ section#corpo {
     border-right: 1px solid #606060;
     padding-right: 25px;
     padding-bottom: 50px;
-    border-width: 500;
+    border-width: 1px;
 }
 
 article#noticia-principal h2 {
     font-size: 13pt;
     color: #000000;
-    background-color: #c1f3f7;
+    background-color: #00ff3780;
     padding: 5px 0px 5px 10px;
     margin: 10px;
-
 }
 
-header#cabecalho-artigo h1 {
-    font-family: 'FonteLogo', sans-serif;
-    font-size: 20pt;
-    color: #606060;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
 
-.direita {
-    text-align: right;
-
-}
-
-header#cabecalho-artigo h2 {
-    font-size: 13pt;
-    color: #cecece;
-    background: #ffffff;
-    margin: 0px;
-
-}
-
-header#cabecalho-artigo h3 {
-    
-    font-size: 12px;
-    color: #606060
-    
-}
-
-/*aside*/
 
 aside#lateral {
     
@@ -229,13 +222,14 @@ font-size: 13pt;
 color: #ffffff;
 padding: 5px;
 
+}
+
+
 /*footer*/
 
-}
 footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
-    background-color: #4d9391;
 }
 
 footer#rodape p {
@@ -244,53 +238,4 @@ footer#rodape p {
 
 footer#rodape a {
     font-size: 13pt;
-}
-
-/*form*/ 
-
-form {
-    width: 500px;
-    margin: auto;
-}
-
-input, textarea {
-    font-family: sans-serif;
-    font-weight: normal;
-    font-size: 13pt;
-    background-color: rgba(255,255,255,.8)
-}
-
-input:hover, textarea:hover {
-    background-color: #dddddd;
-}
-
-legend {
-    color: #888888;
-    font-weight: bold;
-    font-size: 13pt;
-    font-family: sans-serif;
-}
-
-fieldset {
-    border-color: #cecece;
-    margin: 20px;
-}
-
-fieldset#sexo {
-    width: 150px;
-}
-
-fieldset#usuario {
-    background: url("icone-contato.png") no-repeat 95% 95%;
-
-}
-
-fieldset#endereco {
-    background: url("icone-endereco.png") no-repeat 95% 95%;
-    
-}
-
-fieldset#mensagem {
-    background: url("icone-mensagem.png") no-repeat 95% 95%;
-    
 }
